@@ -1,1 +1,266 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+  <title>Forter Store</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <style>
+    *{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  margin-top: 10px;
+}
+
+header .left-side img{
+  display: block;
+  margin: auto;
+  width: 85px;
+}
+
+header .right-side{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+header .right-side .nav-link-wrapper a{
+  padding: 5px;
+  margin: 15px;
+  color: #3c6aa6;
+  text-decoration: none;
+  font-family: 'Viga', sans-serif;
+}
+
+.nav-link-wrapper a:hover{
+  border-bottom: 3px solid #3c6aa6;
+}
+
+.container{
+  width: 90%;
+  margin: 50px auto;
+}
+
+.container .left-side{
+  text-align: center;
+}
+
+.container .left-side h3{
+  font-size: 40px;
+  font-family: 'Viga', sans-serif;
+}
+
+.container .left-side h3 .orange{
+  color: #3c6aa6;
+  font-family: 'Viga',sans-serif;
+  font-size: 40px;
+}
+
+.container .left-side p{
+  font-size: 15px;
+  padding-right: 20px;
+  font-family: 'Viga',sans-serif;
+}
+
+.container .left-side a{
+  display: inline-block;
+  text-decoration: none;
+  color: #3c6aa6;
+  border: 3px solid #3c6aa6;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: 'Viga',sans-serif;
+}
+
+.container .left-side a:hover{
+  background: #3c6aa6;
+  color: white;
+}
+
+.container .right-side{
+  align-items: center;
+}
+
+.container .right-side img{
+  margin-top: 30px;
+  margin-left: 55px;
+  width: 70%;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.icons a{
+  position: relative;
+  font-size: 25px;
+  color: #3c6aa6;
+}
+
+.icons a:not(:last-child){
+  margin-right: 50px;
+}
+
+.icons a:hover{
+  background: #3c6aa6;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media (min-width:671px){
+  header{
+  display: flex;
+  width: 90%;
+  margin: 15px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .left-side img{
+  width: 85px;
+}
+
+header .right-side{
+  display: flex;
+}
+
+header .right-side .nav-link-wrapper a{
+  padding: 10px;
+  margin: 10px;
+  color: #3c6aa6;
+  text-decoration: none;
+  font-family: 'Viga', sans-serif;
+}
+
+.nav-link-wrapper a:hover{
+  border-bottom: 3px solid #3c6aa6;
+}
+
+.container{
+  display: flex;
+  width: 90%;
+  margin: 50px auto;
+}
+
+.container .left-side{
+  flex: 1;
+  text-align: left;
+}
+
+.container .left-side h3{
+  font-size: 40px;
+  font-family: 'Viga', sans-serif;
+}
+
+.container .left-side h3 .orange{
+  color: #3c6aa6;
+  font-family: 'Viga',sans-serif;
+  font-size: 40px;
+}
+
+.container .left-side p{
+  font-size: 15px;
+  padding-right: 20px;
+  font-family: 'Viga',sans-serif;
+}
+
+.container .left-side a{
+  display: inline-block;
+  text-decoration: none;
+  color: #3c6aa6;
+  border: 3px solid #3c6aa6;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-family: 'Viga',sans-serif;
+}
+
+.container .left-side a:hover{
+  background: #3c6aa6;
+  color: white;
+}
+
+.container .right-side{
+  flex: 1;
+  align-items: center;
+}
+
+.container .right-side img{
+  margin-top: -10px;
+  margin-left: 50px;
+  width: 345px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.icons a{
+  position: relative;
+  font-size: 25px;
+  color: #3c6aa6;
+}
+
+.icons a:not(:last-child){
+  margin-right: 50px;
+}
+
+.icons a:hover{
+  background: #3c6aa6;
+  color: white;
+  padding: px;
+  border-radius: 10px;
+}
+
+}
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="left-side">
+      <img src="lg.png" alt="">
+    </div>
+    <div class="right-side">
+      <div class="nav-link-wrapper"><a href="caraorder.html">Cara Order</a></div>
+      <div class="nav-link-wrapper"><a href="harga.html">List Harga</a></div>
+      <div class="nav-link-wrapper"><a href="about.html">About</a></div>
+    </div>
+  </header>
+  
+  <div class="container">
+    <div class="left-side">
+      <h3>Topup Ball<br>
+      <span class="orange">The Spike</span>
+      </h3>
+      <p>The Spike Volleyball Memang Banyak Digemari Terlebih Lagi Di Mobile,Dan Kini Tersedia Topup Termurah Yang Pernah Ada Di Planet Bumi,Buruan Order Sekarang</p>
+      <a href="https://wa.me/6289525445045">Chat Admin<i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+    <div class="right-side">
+      <img src="ball.png" alt="">
+    </div>
+  </div>
+  <div class="icons">
+    <a href="https://www.facebook.com/rizky.p.376695?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/cheatspikevb"><i class="fa-brands fa-instagram"></i></a>
+  </div>
+</body>
+
+</html>
